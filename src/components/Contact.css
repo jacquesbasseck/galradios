@@ -1,0 +1,25 @@
+div.form-container {
+    padding-top: 40px;
+}
+
+div.form-container h1 {
+    line-height: 3;
+    font-weight: 800;
+    display: inline;
+    font-size: 3rem;
+}
+
+div.form-container label {
+    font-weight: 500;
+    font-size: 20px;
+    display: inline;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+div.form-container button {
+    font-size: 40px;
+    font-weight: 600;
+}

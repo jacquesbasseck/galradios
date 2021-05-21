@@ -1,0 +1,14 @@
+div.about {
+    padding-top: 3rem;
+}
+
+div.about h1 {
+    display: inline;
+    font-weight: 900;
+    line-height: 2;
+    font-size: 4.5rem;
+}
+
+div.about p {
+    font-size: 1.2em;
+}

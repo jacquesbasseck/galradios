@@ -1,0 +1,86 @@
+.ListRadios {
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-flow: column dense;
+}
+
+.PlayZone {
+    margin: auto;
+    margin: 150px 0;
+
+}
+
+audio {
+    border: none;
+    display: block;
+    width: 515px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: #F1F3F4;
+
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+
+    -moz-box-shadow: 2px 2px 4px 0px #006773;
+    -webkit-box-shadow: 2px 2px 4px 0px #006773;
+    box-shadow: 2px 2px 4px 0px #006773;
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius:4px 4px 4px 4px;
+    border-radius:4px 4px 4px 4px;
+  
+}
+
+audio:hover,
+audio:focus,
+audio:active {
+    -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.Title {
+    text-align: center;
+    font-size: 0.5rem;
+    padding: 10px 0;
+    text-transform: uppercase;
+    background: rgba(92, 0, 17, 0.4);
+    color: gold;
+}
+
+.Description {
+    color: #fff;
+    font-size: 0.7rem;
+    background: rgba(9, 43, 0, 0.4);
+    padding: 10px 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.playingZone {
+    -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius:4px 4px 4px 4px;
+    border-radius:4px 4px 4px 4px;
+    
+    display: grid;
+    width: 40%;
+    margin: auto;
+}
+.Player {
+    display: grid;
+    grid-template-columns: 80px auto;
+    grid-template-rows: 1fr;
+    background: rgba(255, 217, 0, 0.404);
+    color: #5c0011;
+    width: 100%;
+}
